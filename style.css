@@ -1,0 +1,166 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header{
+  padding-top: 30px;
+}
+
+.nav{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  font-size: 35px;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  color: white;
+
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+footer img {
+  width: auto;
+  height: 60px;
+}
+
+.socials{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.socials li{
+  display:inline;
+}
+.socials a{
+  display:inline-block;
+  padding:30px 15px;
+}
+
+.front{
+  width: 100%;
+  margin-top: 80px;
+  font-size: 35px;
+}
+
+.front1{
+  width: 100%;
+  padding-bottom: 12.5%;
+  padding-top: 10%;
+}
+
+.frontcontainer{
+  width: 75%;
+  height: 600px;
+  margin-left: 12.5%;
+}
+
+.fronttextcenter{
+  float: center;
+  text-align: center;
+}
+
+.basic{
+  width: 55%;
+  margin-left: 22.5%;
+}
+
+.picright{
+  position: relative;
+  float: right;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fronttextleft{
+  position: relative;
+  float: left;
+  width: 600px;
+  height: 600px;
+  display: table;
+}
+
+.fronttextleft p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.picrleft{
+  position: relative;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fronttextright{
+  position: relative;
+  float: right;
+  width: 600px;
+  height: 600px;
+  display: table;
+}
+
+.fronttextright p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.basicroad{
+  width: 100%;
+  display: table;
+  position: relative;
+  background-color: lawngreen;
+}
+
+.roadmaptitle{
+  width: 100%;
+}
+
+.roadmaptitle p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
