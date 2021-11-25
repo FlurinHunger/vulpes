@@ -7,17 +7,20 @@ body {
   line-height: normal;
 }
 
+.row {
+  margin-left: 60px;
+  align-items: center;
+}
 
 
-
-.col-md-6 {
+.col-lg-6 {
   font-size: 35px;
   width: 600px;
   height: 600px;
   display: table;
 }
 
-.col-md-6 p{
+.col-lg-6 p{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -112,10 +115,11 @@ footer img {
 }
 
 .frontcontainer{
-  width: 75%;
-  height: 600px;
-  margin-left: auto;
+  min-width: 600px;
+  max-width: 75%;
   margin-right: auto;
+  margin-left: auto;
+
 }
 
 .fronttextcenter{
