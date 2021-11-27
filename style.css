@@ -186,6 +186,7 @@ footer img {
   display: table;
   position: relative;
   background-color: lawngreen;
+  margin: none !important;
 }
 
 .roadmaptitle{
