@@ -7,6 +7,10 @@ body {
   line-height: normal;
 }
 
+.active {
+  color: rgb(255, 94, 0) !important;
+}
+
 .row {
   margin-left: 60px;
   align-items: center;
@@ -32,10 +36,10 @@ body {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 * {
@@ -115,6 +119,7 @@ footer img {
 }
 
 .frontcontainer{
+  margin-top: 80px;
   min-width: 600px;
   max-width: 75%;
   margin-right: auto;
