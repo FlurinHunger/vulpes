@@ -186,7 +186,8 @@ footer img {
   display: table;
   position: relative;
   background-color: lawngreen;
-  margin: none !important;
+  max-height: 40px;
+  margin-top: 10px;
 }
 
 .roadmaptitle{
