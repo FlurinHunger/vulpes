@@ -6,6 +6,17 @@ body {
   background-color: black;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: black;
+}
+
+nav a {
+  color: white;
+}
 
 img {
     max-width: 100%;
